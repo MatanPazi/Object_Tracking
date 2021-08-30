@@ -1,5 +1,5 @@
 # Object_Tracking
-Controlling a ball on a Ball & Beam system using a camera as the feedback sensor for the ball's position
+Controlling a ball on a Ball & Beam system using a camera as the feedback sensor for the ball's position (Arduino)
 
 https://youtu.be/BMhJVpjCz14
 
