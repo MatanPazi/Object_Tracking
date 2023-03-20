@@ -42,6 +42,18 @@ while True:
 ##    cv2.imshow("mask2", mask)                       # Show only the ball in white
 
 
+
+# # In the future, if I want to read numbers sent as a string in bytes, I can use the following code:
+# ser = serial.Serial()
+# ser.baudrate = 115200
+# ser.port = 'COM11'
+# ser.open()
+# while(1)
+#   if(ser.in_waiting > 0):
+#       # Decode to string, then, remove the ending string, \r\n in this case.
+#       serialString = ser.readline().decode('UTF-8').replace("\r\n", "")
+
+
 #### Communication w/ Arduino
 ##  Wait until Arduino asks for the data    
     while ((Arduino.read()) != b'!'):
